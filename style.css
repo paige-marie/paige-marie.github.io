@@ -189,6 +189,7 @@
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto);
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
@@ -230,6 +231,12 @@
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+  }
+
+  .project-description {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    background-color: #ff7f50;
   }
   
   .btn {
