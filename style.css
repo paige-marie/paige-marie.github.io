@@ -189,7 +189,8 @@
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: repeat(auto);
+    /* grid-template-rows: repeat(auto-fill, 100px); */
+    grid-template-rows: auto;
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
